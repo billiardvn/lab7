@@ -1,6 +1,6 @@
 <?php
 $res=array();
-$s="localhost"; $u="id22116301_hungnq2808"; $p="Abc@123456"; $db="id22116301_hungnq2808";
+$s="localhost"; $u="root"; $p=""; $db="a4";
 $con=new mysqli($s,$u,$p,$db);
 $sql="SELECT * FROM SanPham";
 $result=$con->query($sql);//doc du lieu va tra ve result
